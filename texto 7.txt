@@ -1,0 +1,8 @@
+{
+  "name": "Solistica Consultorio",
+  "short_name": "Solistica",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f4fd8"
+}

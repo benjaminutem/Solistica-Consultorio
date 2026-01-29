@@ -1,0 +1,10 @@
+const users = [
+  { user: "admin", pass: "1234", role: "admin" },
+  { user: "doctor", pass: "1234", role: "user" }
+];
+
+let inventoryData = [
+  { codigo: "7501234567890", nombre: "Paracetamol 500mg", stock: 120 },
+  { codigo: "7509876543210", nombre: "Amoxicilina 500mg", stock: 80 },
+  { codigo: "7505555555555", nombre: "Ibuprofeno 400mg", stock: 60 }
+];

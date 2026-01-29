@@ -1,0 +1,12 @@
+function exportExcel() {
+  let csv = "Codigo,Nombre,Stock\n";
+  inventoryData.forEach(m => {
+    csv += `${m.codigo},${m.nombre},${m.stock}\n`;
+  });
+
+  const blob = new Blob([csv], { type: "text/csv" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "inventario_solistica.csv";
+  a.click();
+}
